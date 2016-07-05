@@ -1,0 +1,17 @@
+name: ClearYourInv
+main: ClearYourInv\Main
+author: Martin77Epic
+api: [1.0.0, 2.0.0, 1.15.0]
+version: 1.0.0
+load: POSTWORLD
+description: This plugin Clear your Inventory!
+
+commands:
+  ci:
+    description: Clear your inventory!
+    usage: "Usage: /ci"
+    permission: m77e.ci
+permissions:
+  m77e.ci:
+    description: "Allows the user to run /ci command"
+    default: op
